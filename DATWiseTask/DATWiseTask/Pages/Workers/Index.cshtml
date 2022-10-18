@@ -1,0 +1,32 @@
+﻿@page
+@model DATWiseTask.Pages.Workers.IndexModel
+@{
+}
+
+<br />
+<h2>Worker List</h2>
+<a class='btn btn-primary btn-sm' href='/Workers/Create'>New Worker</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>WorkerID</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model.WorkerList)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.name</td>
+                <td>@item.workerId</td>
+                <td>
+                    <a class='btn btn-primary btn-sm' href="/Workers/Edit?id=@item.id">Edit</a>
+                    <a class='btn btn-danger btn-sm' href="/Workers/Delete?id=@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

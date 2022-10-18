@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATWiseTask", "DATWiseTask\DATWiseTask.csproj", "{CF86DC12-4B03-4EC2-8E03-6B155D5C811C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF86DC12-4B03-4EC2-8E03-6B155D5C811C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF86DC12-4B03-4EC2-8E03-6B155D5C811C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF86DC12-4B03-4EC2-8E03-6B155D5C811C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF86DC12-4B03-4EC2-8E03-6B155D5C811C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF6E4972-B87B-4D87-96C0-A3A5AABEA6CD}
+	EndGlobalSection
+EndGlobal
